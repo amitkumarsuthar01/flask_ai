@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app)
 
 # ✅ Load STUDENT-FRIENDLY GPT-LIKE MODEL
-print("✅ Loading Student Exam AI model (flan-t5-large)... Please wait...")
+print("✅ Loading Student Exam AI model (flan-t5-small)... Please wait...")
 generator = pipeline("text2text-generation", model="google/flan-t5-large")
 print("✅ AI Model Loaded Successfully!")
 
